@@ -2,7 +2,7 @@ export default function Hero() {
     return (
       <section className="flex flex-col items-center justify-center text-center py-16 px-6">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-          Hello, I'm Okasha Arshad
+          Hello, I&apos;m Okasha Arshad
         </h1>
         <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-10">
           Full Stack Engineer @ QLU.ai | Flutter & Node.js Enthusiast | CS Grad @ FAST NUCES
