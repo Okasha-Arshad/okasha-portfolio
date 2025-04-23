@@ -1,22 +1,21 @@
-import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Projects from "@/components/Projects";
-import TechStack from "@/components/TechStack";
-import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
-
-
+import Experience from "@/components/Experience";
+import Intro from "@/components/intro";
+import Projects from "@/components/Projects";
+import SectionDivider from "@/components/section-divider";
+import Skills from "@/components/skills";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-50 text-gray-900 px-6 py-10">
-      <Hero />
+    <main className="flex flex-col items-center px-4">
+      <Intro />
+      <SectionDivider />
       <About />
       <Projects />
-      <TechStack />
+      <Skills />
       <Experience />
       <Contact />
     </main>
   );
 }
-
